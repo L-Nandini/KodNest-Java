@@ -1,4 +1,6 @@
-class Main {
+package track.Class_Practice;
+
+public class Days {
     public static void main(String[] args) {
         System.out.println("Monday");
         System.out.print("Tuesday");
