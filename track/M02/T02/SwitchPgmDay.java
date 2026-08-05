@@ -28,7 +28,6 @@ public class SwitchPgmDay {
                 break;
             default:
                 System.out.println("Invalid day");
-                break;
         }
     }
 }
