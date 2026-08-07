@@ -2,7 +2,7 @@ package track.Class_Practice;
 
 import java.util.Scanner;
 
-public class ScannerMethodsDemo {
+public class ScannerMethodsDemo1 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
