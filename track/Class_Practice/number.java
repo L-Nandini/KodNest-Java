@@ -1,6 +1,6 @@
 package track.Class_Practice;
 
-public class number {
+public class Number {
     public static void main(String[] args) {
         int num = 10;
         if (num == 0) {
