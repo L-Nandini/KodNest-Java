@@ -2,13 +2,12 @@ package track.M02.T04;
 
 import java.util.Scanner;
 
-class Student {
-    int id;
-    String name;
-    int javaScore;
-}
-
 public class CreateCompare2Objects {
+    static class Student {
+        int id;
+        String name;
+        int javaScore;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
