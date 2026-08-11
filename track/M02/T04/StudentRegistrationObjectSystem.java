@@ -19,7 +19,6 @@ public class StudentRegistrationObjectSystem {
         s1.name = sc.next();
         s1.attendancePercentage = sc.nextDouble();
 
-        // Create and populate secondStudent
         Student s2 = new Student();
         s2.registrationId = sc.nextInt();
         s2.name = sc.next();
