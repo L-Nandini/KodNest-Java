@@ -1,4 +1,4 @@
-package track.Class_Practice;
+package track.M02.T05;
 
 import java.util.Scanner;
 
