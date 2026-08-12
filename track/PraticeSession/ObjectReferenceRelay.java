@@ -1,4 +1,4 @@
-package track.M02.T04;
+package track.PraticeSession;
 
 import java.util.Scanner;
 
