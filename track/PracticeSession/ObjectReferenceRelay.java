@@ -1,4 +1,4 @@
-package track.PraticeSession;
+package track.PracticeSession;
 
 import java.util.Scanner;
 

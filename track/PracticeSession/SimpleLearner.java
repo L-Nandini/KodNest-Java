@@ -1,4 +1,4 @@
-package track.PraticeSession;
+package track.PracticeSession;
 
 public class SimpleLearner {
     public static void main(String[] args) {
