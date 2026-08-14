@@ -1,11 +1,11 @@
 package track.Class_Practice;
 
-class StudentObject {
+class Student {
     String name;
     int age;
     double height;
 
-    void input(String name, int age, double height) {
+    Student(String name, int age, double height) {
         this.name = name;
         this.age = age;
         this.height = height;
@@ -18,12 +18,12 @@ class StudentObject {
     }
 }
 
-public class StudentApplication {
+public class ConstructorStudentApplication {
 
     public static void main(String[] args) {
-        StudentObject s = new StudentObject();
-        s.input("Raja", 10, 5.0);
+        Student s = new Student("Raja", 10, 5.0);
         s.display();
+
     }
 
 }
