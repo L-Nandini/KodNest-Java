@@ -1,4 +1,4 @@
-package track.PraticeSession;
+package track.PracticeSession;
 
 public class Calc_Dis_Report {
     public static void main(String[] args) {
