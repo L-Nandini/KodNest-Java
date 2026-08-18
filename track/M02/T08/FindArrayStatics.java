@@ -1,4 +1,4 @@
-package track.M02.T07;
+package track.M02.T08;
 
 import java.util.Scanner;
 
@@ -14,10 +14,16 @@ public class FindArrayStatics {
         for (int i = 1; i < n; i++) {
             if (arr[i] > max) {
                 max = arr[i];
-            }
-            if (arr[i] < min) {
+            } else if (arr[i] < min) {
                 min = arr[i];
             }
+            // if (arr[i] > max) {
+            // max = arr[i];
+            // }
+            // if (arr[i] < min) {
+            // min = arr[i];
+            // }
+
         }
         System.out.println("Minimum: " + min);
         System.out.println("Maximum: " + max);
