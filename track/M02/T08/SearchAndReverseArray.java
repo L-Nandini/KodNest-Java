@@ -1,4 +1,4 @@
-package track;
+package track.M02.T08;
 
 import java.util.Scanner;
 
