@@ -18,6 +18,8 @@ public class FindSecondLargestDistinctValue {
                 secLargest = largest;
                 largest = arr[i];
             } else if (arr[i] > secLargest && arr[i] != largest) {
+                // we can write arr[i] > secLargest && arr[i] < largest is same and also
+                // if we write arr[i] != largest it will not print largest value
                 secLargest = arr[i];
             }
         }
