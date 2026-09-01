@@ -14,13 +14,23 @@ public class RemoveTheElementAtSpecificIndex {
         }
         System.out.println("Enter the index at which element to be removed");
         int index = sc.nextInt();
-        for (int i = 0; i < n; i++) {
-            // if (i != index) {
-            // System.out.print(a[i] + " ");
-            // }
-            if (i == index)
+        // for (int i = 0; i < n; i++) {
+        // // if (i != index) {
+        // // System.out.print(a[i] + " ");
+        // // }
+        // if (i == index)
+        // continue;
+        // System.out.print(a[i] + " ");
+        // }
+        int b[] = new int[n - 1];
+        for (int i = 0; i <= b.length; i++) {
+            if (i == index) {
                 continue;
-            System.out.print(a[i] + " ");
+            } else if (i > index) {
+                b[i - 1] = a[i];
+            } else {
+                b[i] = a[i];
+            }
         }
         sc.close();
     }
