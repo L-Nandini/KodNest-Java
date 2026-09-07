@@ -1,4 +1,4 @@
-package track.Class_Practice;
+package track.Class_Practice.Arrrays;
 
 class ArraySearch {
     void search(int ref[], int key) {

@@ -1,9 +1,8 @@
-package track.Class_Practice;
+package track.Class_Practice.Arrrays;
 
 import java.util.Scanner;
 
-public class ClockWiseRotation {
-
+public class AntiCWRotation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -11,11 +10,11 @@ public class ClockWiseRotation {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        int temp = arr[n - 1];
-        for (int i = n - 1; i > 0; i--) {
-            arr[i] = arr[i - 1];
+        int temp = arr[0];
+        for (int i = 1; i < n; i++) {
+            arr[i - 1] = arr[i];
         }
-        arr[0] = temp;
+        arr[n - 1] = temp;
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
