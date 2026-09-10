@@ -25,5 +25,36 @@ public class StringBuilderPgm {
         sb2.append("Programming");
         System.out.println(sb2.capacity()); // 100
         System.out.println(sb2.length()); // 15
+
+        sb2.insert(0, "Python ");
+        System.out.println(sb2); // Python JavaProgramming
+        System.out.println(sb2.capacity()); // 100
+        System.out.println(sb2.length()); // 15
+
+        sb2.delete(0, 7);
+        System.out.println(sb2); // JavaProgramming
+        System.out.println(sb2.capacity()); // 100
+        System.out.println(sb2.length()); // 15
+
+        sb2.deleteCharAt(0);
+        System.out.println(sb2); // avaProgramming
+        System.out.println(sb2.capacity()); // 100
+        System.out.println(sb2.length()); // 14
+
+        sb2.replace(0, 4, "Hi");
+        System.out.println(sb2); // Hi Programming
+        System.out.println(sb2.capacity()); // 100
+        System.out.println(sb2.length()); // 14
+
+        sb2.reverse();
+        System.out.println(sb2); // grammatP iH
+        System.out.println(sb2.capacity()); // 100
+        System.out.println(sb2.length()); // 14
+
+        String s = sb2.toString();
+        // String s = String.valueOf(sb2); // same as toString
+        System.out.println(s); // grammatP iH
+        System.out.println(s.getClass()); // class java.lang.String
+
     }
 }
