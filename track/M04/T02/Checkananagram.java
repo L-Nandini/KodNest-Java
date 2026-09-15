@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Checkananagram {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
+
             String first = sc.nextLine().toLowerCase();
             String second = sc.nextLine().toLowerCase();
 
