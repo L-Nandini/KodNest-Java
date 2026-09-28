@@ -1,6 +1,6 @@
 package track.Class_Practice.Static;
 
-public class BasicProgram {
+public class BasicStaticProgram {
 
     static int a;
     static int b;
@@ -30,7 +30,7 @@ public class BasicProgram {
     }
 
     public static void main(String[] args) {
-        BasicProgram pg = new BasicProgram();
+        BasicStaticProgram pg = new BasicStaticProgram();
         // pg.display();
         display();
         pg.display2();
