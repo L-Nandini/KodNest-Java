@@ -1,15 +1,15 @@
 package track.Class_Practice.OOPS;
 
 class Book1 {
-    private int pageNumber;
+    private int pageNumber; // membered variable / data
 
-    public void setData(int x) {
+    public void setData(int x) { // membered function
         if (x > 0) {
             pageNumber = x;
         }
     }
 
-    public int getData() {
+    public int getData() { // membered function
         return pageNumber;
     }
 }
