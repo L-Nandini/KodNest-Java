@@ -23,6 +23,9 @@ class Child extends Parent {
     Child(int a, int b) {
         System.out.println("Inside child 2 param.. constructor");
     }
+    void disp(){
+        System.out.println("inside method");
+    }
 
 }
 
@@ -37,5 +40,6 @@ public class Inheritance_Constructor_Chaining_2 {
 
     public static void main(String[] args) {
         Child c1 = new Child();
+        c1.disp();
     }
 }

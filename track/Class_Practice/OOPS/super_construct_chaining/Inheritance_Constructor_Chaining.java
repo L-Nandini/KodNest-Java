@@ -1,5 +1,5 @@
 package track.Class_Practice.OOPS.super_construct_chaining;
-
+// global chaining by default super() calls it self.. and it should be first call
 class Parent {
     Parent() {
         System.out.println("Inside parent 0 param.. constructor");
