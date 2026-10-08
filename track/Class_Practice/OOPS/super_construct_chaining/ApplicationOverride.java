@@ -1,32 +1,33 @@
 package track.Class_Practice.OOPS.super_construct_chaining;
 
-class Parent{
-    void disp1(){
+class OverrideParent {
+    void disp1() {
         System.out.println("Inside parent disp 1");
     }
-    void disp2(){
+
+    void disp2() {
         System.out.println("Inside parent disp 2");
     }
 }
 
-class Child extends Parent{
+class OverrideChild extends OverrideParent {
     @Override
-    void disp2(){
+    void disp2() {
         System.out.println("inside child disp 2");
     }
 
-    void disp3(){
+    void disp3() {
         System.out.println("inside child disp 3");
     }
 }
 
-public class ApplicationOverride{
-    
+public class ApplicationOverride {
+
     public static void main(String[] args) {
-        Parent p=new Parent();
+        OverrideParent p = new OverrideParent();
         p.disp2();
-        Child c=new Child();
+        OverrideChild c = new OverrideChild();
         c.disp2();
-        
+
     }
 }

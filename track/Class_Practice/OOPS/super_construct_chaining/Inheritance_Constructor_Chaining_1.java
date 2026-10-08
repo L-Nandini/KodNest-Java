@@ -2,15 +2,15 @@ package track.Class_Practice.OOPS.super_construct_chaining;
 
 // external calling using super
 // global chaining
-class Parent {
+class ExplicitChainingParent {
 
-    Parent(int a) {
+    ExplicitChainingParent(int a) {
         System.out.println("Inside parent 1 param.. constructor");
     }
 }
 
-class Child extends Parent {
-    Child() {
+class ExplicitChainingChild extends ExplicitChainingParent {
+    ExplicitChainingChild() {
         super(10); // explicit calling
         System.out.println("Inside child 0 param.. constructor");
     }
@@ -20,7 +20,7 @@ class Child extends Parent {
 public class Inheritance_Constructor_Chaining_1 {
 
     public static void main(String[] args) {
-        Child c1 = new Child();
+        ExplicitChainingChild c1 = new ExplicitChainingChild();
         c1.getClass();
     }
 }

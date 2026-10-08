@@ -1,21 +1,22 @@
 package track.Class_Practice.OOPS.super_construct_chaining;
+
 // global chaining by default super() calls it self.. and it should be first call
-class Parent {
-    Parent() {
+class ChainingParent {
+    ChainingParent() {
         System.out.println("Inside parent 0 param.. constructor");
     }
 
-    Parent(int a) {
+    ChainingParent(int a) {
         System.out.println("Inside parent 1 param.. constructor");
     }
 }
 
-class Child extends Parent {
-    Child() {
+class ChainingChild extends ChainingParent {
+    ChainingChild() {
         System.out.println("Inside child 0 param.. constructor");
     }
 
-    Child(int a) {
+    ChainingChild(int a) {
         System.out.println("Inside child 1 param.. constructor");
     }
 }
@@ -23,8 +24,8 @@ class Child extends Parent {
 public class Inheritance_Constructor_Chaining {
 
     public static void main(String[] args) {
-        Child c1 = new Child();
-        Child c2 = new Child(5);
+        ChainingChild c1 = new ChainingChild();
+        ChainingChild c2 = new ChainingChild(5);
         c1.getClass();
         c2.getClass();
     }

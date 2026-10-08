@@ -1,6 +1,6 @@
 package track.Class_Practice.OOPS.super_construct_chaining;
 
-class Parent {
+class SuperParent {
     int a = 10;
 
     void disp() {
@@ -8,7 +8,7 @@ class Parent {
     }
 }
 
-class Child extends Parent {
+class SuperChild extends SuperParent {
     int a = 20;
 
     void disp2() {
@@ -21,7 +21,7 @@ class Child extends Parent {
 class Super {
 
     public static void main(String[] args) {
-        Child c = new Child();
+        SuperChild c = new SuperChild();
         c.disp2();
     }
 }
