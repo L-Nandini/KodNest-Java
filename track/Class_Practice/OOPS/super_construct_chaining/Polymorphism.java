@@ -36,10 +36,10 @@ class PythonDeveloper extends Developer {
 
 public class Polymorphism {
     public static void main(String[] args) {
-        Developer jd = new JavaDeveloper();
+        JavaDeveloper jd = new JavaDeveloper();
         accessMethod(jd);
 
-        Developer pd = new PythonDeveloper();
+        PythonDeveloper pd = new PythonDeveloper();
         accessMethod(pd);
     }
 
