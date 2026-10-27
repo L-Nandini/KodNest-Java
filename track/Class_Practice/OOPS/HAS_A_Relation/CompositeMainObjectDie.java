@@ -18,7 +18,7 @@ class MobileDie {
     }
 }
 
-public class MainObjectDie {
+public class CompositeMainObjectDie {
     public static void main(String[] args) {
         MobileDie m = new MobileDie();
         m.o.checkOs();

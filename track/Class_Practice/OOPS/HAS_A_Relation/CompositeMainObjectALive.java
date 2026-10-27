@@ -18,7 +18,7 @@ class MobileLive {
     }
 }
 
-public class MainObjectALive {
+public class CompositeMainObjectALive {
     public static void main(String[] args) {
         MobileLive m = new MobileLive();
         m.o.checkOs();
